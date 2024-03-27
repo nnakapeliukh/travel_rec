@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: #9998e2;
+    background-color: #a78d7c98;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -34,7 +34,13 @@ nav {
   body {
     font-family: Arial, sans-serif;
     /* margin: 20px; */
-    background-image: ;
+    background-image: url("travel.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    
   }
   
   h1 {
@@ -91,3 +97,66 @@ nav {
     width: 200px;
     height: 100px;
   }
+
+  #credits {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+  }
+  
+  #homepage-text {
+    margin: 10% auto auto 15%;
+    color: white;
+  }
+  #homepage-title {
+    font-size: 70px;    
+  }
+  #intro {
+    padding-top: 50px;
+    font-size: 20px;
+    width: 400px;
+    overflow-wrap: normal;
+  }
+  #aboutus-text {
+    margin: 10% auto auto 15%;
+    color: white;
+  }
+  #aboutus-desc {
+    margin-top: 50px;
+    font-size: 20px;
+    width: 900px;
+    overflow-wrap: normal;
+    background-color: rgba(51, 51, 51, 0.397);
+
+  }
+
+  #team {
+    margin-top: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .team-member{
+    width: 20%;
+    background-color: rgba(51, 51, 51, 0.514);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title {
+    background-color: #45a049;
+    border-radius: 10px;
+    padding: 5px;
+}
+#contact-container {
+    display: flex;
+}
+.contact-text {
+    color: white;
+    
+}
