@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>TravelRec</h1>
+      <ul>
+        <li><a href="./index.html" id="home">Home </a></li>
+        <li><a href="./aboutus.html" id="aboutus">About Us </a></li>
+        <li><a href="./contact.html" id="contact">Contact Us </a></li>
+        <li>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Beach, temple, country..."
+          />
+        </li>
+        <li><button onclick="searchJSON()" id="btnSearch">Search</button></li>
+        <li><button onclick="clearSearch()" id="btnReset">Reset</button></li>
+      </ul>
+    </nav>
+    <div class="homepage-container">
+      <div id="homepage-text">
+        <h1 id="homepage-title">
+          EXPLORE <br />
+          DREAM <br />
+          DESTINATION
+        </h1>
+        <p id="intro">
+          Travel platform that helps users discover their ideal vacation spots
+          based on their preferences and interests. With a user-friendly
+          interface and advanced AI technology, Explore Dream Destination offers
+          personalized recommendations for accommodations, activities, and
+          attractions.
+        </p>
+      </div>
+      <div id="search-results"></div>
+    </div>
+    <p id="credits">
+      Photo by
+      <a
+        href="https://unsplash.com/@neom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >NEOM</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/a-person-wearing-a-hat-standing-in-front-of-a-mountain-WZCMd9K-sHY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Unsplash</a
+      >
+    </p>
+    <script src="./travel_recommendation.js"></script>
+  </body>
+</html>
