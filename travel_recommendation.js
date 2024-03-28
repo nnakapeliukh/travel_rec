@@ -56,3 +56,8 @@ async function searchJSON() {
         });
     }
 }
+
+function clearSearch() {
+    const searchResultContainer = document.getElementById("search-results");
+    searchResultContainer.innerHTML = "";
+}
